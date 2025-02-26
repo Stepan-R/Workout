@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.header_layout {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header_link {
+  text-decoration: none;
+  color: black;
+}
+
+.log_layout {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.nav_layout {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.logout_btn {
+  width: 70px;
+  height: 30px;
+  border: 2px solid #1aac83;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #1aac83;
+  margin-left: 24px;
+}
+
+.links_layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome_layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.email_name {
+  text-transform: capitalize;
+  margin-left: 44px;
+  color: #1aac83;
+  font-weight: bold;
+}
+
+.welcome_hand {
+  position: absolute;
+  left: 40px;
+  top: -5px;
+  width: 35px;
+  height: 35px;
+}
